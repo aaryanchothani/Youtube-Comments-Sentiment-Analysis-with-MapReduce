@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 from nltk.sentiment import SentimentIntensityAnalyzer
 import subprocess
 
-API_KEY = 'AIzaSyCffx01Otq43huzFMXLtT2pNCtBKZ0Wh2o'  
+API_KEY = ''  
 
 def get_youtube_comments(video_id):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
