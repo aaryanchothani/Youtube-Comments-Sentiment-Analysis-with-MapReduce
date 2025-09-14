@@ -24,7 +24,7 @@ stream.py                  # For streaming / continual processing
 tree.txt                   # intermediate or output structure
 youtube.png                # Visualization or preview image
 youtube_sentiment.py       # Main driver script
-__pycache__/               # Ignored (compiled Python files)
+__pycache__/               
 
 ```
 ---
