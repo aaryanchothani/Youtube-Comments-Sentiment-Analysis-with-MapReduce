@@ -1,7 +1,7 @@
 # YouTube Comments Sentiment Analysis with MapReduce
 
 ## 📖 Project Overview
-This project applies sentiment analysis to YouTube comments using a MapReduce-style pipeline in Python. The aim is to efficiently process large sets of comments and categorize them (positive, negative, neutral), helping understand audience sentiment in bulk.
+This project applies sentiment analysis to YouTube comments using a MapReduce-style pipeline in Python and having its frontend with Streamlit. The aim is to efficiently process large sets of comments and categorize them (positive, negative, neutral), helping understand audience sentiment in bulk.
 
 ---
 
@@ -17,9 +17,9 @@ This project applies sentiment analysis to YouTube comments using a MapReduce-st
 
 ```text
 .gitignore                  # Specifies files/folders to ignore (e.g. __pycache__)
-1.py                       # First stage script in pipeline
-2.py                       # Second stage
-comments.txt               # Dataset of YouTube comments
+1.py                       # First stage script in pipeline (Map)
+2.py                       # Second stage (Reduce)
+comments.txt               
 stream.py                  # For streaming / continual processing
 tree.txt                   # intermediate or output structure
 youtube.png                # Visualization or preview image
